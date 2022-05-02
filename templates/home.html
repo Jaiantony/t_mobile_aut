@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Check Availability</title>
+<!--        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">-->
+    </head>
+    <body>
+       <div>
+           <form  method = "POST">
+           <p>Street Name <input type = "text" id ="street_Name" name = "street_Name"  placeholder="Enter Street Name"/></p>
+
+           <p>Zip Code <input type ="text" id="zip_Code" name = "zip_Code" placeholder="Enter Zip Code" /></p>
+           <p><input type = "submit" value = "submit" /></p>
+</form>
+       </div>
+    <h3> {{address}}  {{result}}</h3>
+
+    </body>
+</html>
